@@ -6,13 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Classic Recipes",
+    title: "Nerdery Recipe Book",
     shortTitle: "Recipes",
-    description: "Classic recipes you’ll want to keep making.",
-    url: "https://recipes-demo.marinda.me", // No trailing slash allowed!
-    image: "/images/og-image.jpg", // Path to your image you placed in the 'static' folder
+    description: "Recipes from the Nerdery Kitchen",
+    url: "https://nerdery-recipe-book.netlify.com",
+    image: "/images/og-image.jpg",
     author: "",
-    intro: "Classic recipes you’ll want to keep making.",
+    intro: "Recipes from the Nerdery Kitchen.",
     menuLinks: [
       {
         name: "About",
@@ -21,13 +21,9 @@ module.exports = {
     ],
     footerLinks: [
       {
-        name: "Privacy Policy & Cookies",
-        href: "/privacy-policy"
-      },
-      {
-        name: "Gatsby Theme Recipes on Github",
+        name: "Nerdery",
         href:
-          "https://github.com/mariiinda/gatsby-theme-recipes/tree/master/packages/gatsby-theme-recipes"
+          "https://nerdery.com"
       }
     ]
   },
